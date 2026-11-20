@@ -60,7 +60,7 @@ Zero dependencies, Python 3.9+:
 
 ```bash
 git clone git@github-linmoxi33:linmoxi33/tagprobe.git && cd tagprobe
-python3 -m unittest discover -s tests -v     # 20 tests, all green
+python3 -m unittest discover -s tests -v     # 21 tests, all green
 ```
 
 ## Usage

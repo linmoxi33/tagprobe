@@ -111,6 +111,11 @@ class BehaviourTests(unittest.TestCase):
         self.assertEqual(summary["same"] + summary["drift"], summary["total"])
         self.assertEqual(summary["drift"], 7)
 
+    def test_same_tree_has_no_drift(self):
+        again = run(str(A), str(A), self.spec)
+        self.assertEqual(again["summary"]["drift"], 0)
+        self.assertEqual(again["summary"]["same"], 8)
+
     def test_digest_is_stable_across_directories(self):
         clone_a, clone_b = TMP / "ca", TMP / "cb"
         shutil.copytree(A, clone_a)

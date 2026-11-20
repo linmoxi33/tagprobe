@@ -125,7 +125,10 @@ def run_tree(tree, spec, timeout=30.0):
 
 
 def _kinds(a, b):
-    if a.get("outcome") == "missing" or b.get("outcome") == "missing":
+    a_missing, b_missing = a.get("outcome") == "missing", b.get("outcome") == "missing"
+    if a_missing and b_missing:
+        return []
+    if a_missing or b_missing:
         return ["missing_symbol"]
     kinds = []
     if a.get("outcome") != b.get("outcome"):
