@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+*.zip
+*.tar.gz
+.report-tmp/

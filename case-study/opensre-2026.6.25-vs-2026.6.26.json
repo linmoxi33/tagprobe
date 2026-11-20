@@ -1,0 +1,3126 @@
+{
+  "cases": [
+    {
+      "a": {
+        "id": "p:Makefile",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:Makefile",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:Makefile",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:app/agent/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/agent/, tests/fleet_monitoring/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "agent"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/agent/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/agent/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/analytics/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/analytics/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "analytics"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/analytics/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/analytics/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/auth/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/app/auth/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "auth"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/auth/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/auth/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/cli/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/cli/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "cli"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/cli/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/cli/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/cli/main.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/cli/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "cli"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/cli/main.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/cli/main.py",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/core/orchestration/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/core/orchestration/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/core/orchestration/",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:app/core/orchestration/node/publish_findings/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/core/orchestration/node/publish_findings/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/core/orchestration/node/publish_findings/",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:app/core/runtime/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/core/runtime/, tests/agent/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "core"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/core/runtime/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/core/runtime/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/core/runtime/agent.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/core/runtime/, tests/agent/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "core"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/core/runtime/agent.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/core/runtime/agent.py",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/deployment/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/deployment/, tests/app/deployment/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "deployment"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/deployment/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/deployment/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/entrypoints/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/entrypoints/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "entrypoints"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/entrypoints/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/entrypoints/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/fleet_monitoring/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/agent/, tests/fleet_monitoring/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "fleet_monitoring"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/fleet_monitoring/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/fleet_monitoring/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/guardrails/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/test_guardrails/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "guardrails"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/guardrails/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/guardrails/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/integrations/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/integrations/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/integrations/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/integrations/foo.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/integrations/foo.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/integrations/foo.py",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/integrations/hermes/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/hermes/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/integrations/hermes/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/integrations/hermes/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/integrations/llm_cli/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/llm_cli/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/integrations/llm_cli/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/integrations/llm_cli/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/integrations/llm_cli/foo.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/llm_cli/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/integrations/llm_cli/foo.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/integrations/llm_cli/foo.py",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/integrations/opensre/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/opensre/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/integrations/opensre/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/integrations/opensre/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/masking/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/masking/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "masking"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/masking/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/masking/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/remote/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/remote/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "remote"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/remote/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/remote/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/sandbox/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/sandbox/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "sandbox"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/sandbox/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/sandbox/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/services/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/services/, tests/tools/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "services"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/services/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/services/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/state/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/state/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/state/",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:app/tools/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/tools/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "tools"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/tools/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/tools/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/types/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/types/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/types/",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:app/utils/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/utils/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/utils/",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:app/watch_dog/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/watch_dog/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "watch_dog"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/watch_dog/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/watch_dog/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:app/webapp.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/test_webapp.py)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "webapp.py"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:app/webapp.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:app/webapp.py",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:cli/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:cli/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/cli/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "cli/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:cli/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:config/webapp.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:config/webapp.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/test_webapp.py)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "config/webapp.py"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:config/webapp.py",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:core/agent.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:core/agent.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:core/agent.py",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:core/domain/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:core/domain/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:core/domain/",
+      "kinds": [
+        "value_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:core/orchestration/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:core/orchestration/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:core/orchestration/",
+      "kinds": [
+        "value_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:core/orchestration/node/publish_findings/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:core/orchestration/node/publish_findings/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:core/orchestration/node/publish_findings/",
+      "kinds": [
+        "value_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:core/runtime/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:core/runtime/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/core/runtime/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "core/runtime/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:core/runtime/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:docs/readme.mdx",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:docs/readme.mdx",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:docs/readme.mdx",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:gateway/server.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:gateway/server.py",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:gateway/server.py",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:infra/ci/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/infra_ci/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "infra/ci/"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:infra/ci/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/infra_ci/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "infra/ci/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:infra/ci/",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:infra/ci/test_scope_rules.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/infra_ci/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "infra/ci/"
+              ]
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:infra/ci/test_scope_rules.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/infra_ci/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "infra/ci/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:infra/ci/test_scope_rules.py",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:infra/deployment/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:infra/deployment/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/deployment/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "deployment"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:infra/deployment/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:infra/deployment/entrypoints/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:infra/deployment/entrypoints/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/entrypoints/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "deployment"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:infra/deployment/entrypoints/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:infra/deployment/remote/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:infra/deployment/remote/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/remote/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "deployment"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:infra/deployment/remote/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:integrations/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:integrations/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:integrations/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:integrations/hermes/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:integrations/hermes/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/hermes/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations/hermes/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:integrations/hermes/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:integrations/llm_cli/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:integrations/llm_cli/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/llm_cli/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations/llm_cli/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:integrations/llm_cli/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:integrations/opensre/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:integrations/opensre/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/integrations/opensre/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "integrations/opensre/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:integrations/opensre/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:platform/analytics/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:platform/analytics/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/analytics/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "platform/analytics/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:platform/analytics/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:platform/auth/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:platform/auth/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/platform/auth/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "platform/auth/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:platform/auth/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:platform/guardrails/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:platform/guardrails/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/test_guardrails/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "platform/guardrails/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:platform/guardrails/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:platform/masking/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:platform/masking/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/masking/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "platform/masking/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:platform/masking/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:platform/sandbox/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:platform/sandbox/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/sandbox/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "platform/sandbox/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:platform/sandbox/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:pyproject.toml",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:pyproject.toml",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:pyproject.toml",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:pytest.ini",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:pytest.ini",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:pytest.ini",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:services/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:services/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/services/, tests/tools/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "services/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:services/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:tests/core/test_x.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/core/test_x.py)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:tests/core/test_x.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/core/test_x.py)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:tests/core/test_x.py",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:tests/infra_ci/test_test_scope_rules.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/infra_ci/test_test_scope_rules.py)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:tests/infra_ci/test_test_scope_rules.py",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/infra_ci/test_test_scope_rules.py)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:tests/infra_ci/test_test_scope_rules.py",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:tools/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:tools/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/tools/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "tools/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:tools/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:tools/fleet_monitoring/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:tools/fleet_monitoring/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/agent/, tests/fleet_monitoring/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "tools/fleet_monitoring/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:tools/fleet_monitoring/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:tools/watch_dog/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:tools/watch_dog/",
+        "outcome": "return",
+        "stdout": "  (skipping non-existent targets: tests/watch_dog/)\n",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": [
+                "tools/watch_dog/"
+              ]
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:tools/watch_dog/",
+      "kinds": [
+        "value_drift",
+        "stdout_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:unknown/path.txt",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:unknown/path.txt",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:unknown/path.txt",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "p:utils/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            false,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:utils/",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:utils/",
+      "kinds": [
+        "value_drift"
+      ],
+      "module": "test_scope_rules",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "p:uv.lock",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "b": {
+        "id": "p:uv.lock",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__seq__": "tuple",
+          "items": [
+            true,
+            {
+              "__seq__": "list",
+              "items": []
+            },
+            {
+              "__seq__": "list",
+              "items": []
+            }
+          ]
+        }
+      },
+      "function": "classify",
+      "id": "p:uv.lock",
+      "kinds": [],
+      "module": "test_scope_rules",
+      "status": "same"
+    }
+  ],
+  "digest": "sha256:30d081b474fce224adc1326cd4c8edc6d76cb1b85c1eb0b5c4022781d2e67ac8",
+  "summary": {
+    "drift": 47,
+    "kinds": {
+      "stdout_drift": 43,
+      "value_drift": 47
+    },
+    "same": 17,
+    "total": 64
+  },
+  "tool": "tagprobe"
+}

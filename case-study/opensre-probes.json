@@ -1,0 +1,644 @@
+{
+ "calls": [
+  {
+   "id": "p:Makefile",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "Makefile"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/agent/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/agent/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/analytics/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/analytics/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/auth/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/auth/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/cli/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/cli/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/cli/main.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/cli/main.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/core/orchestration/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/core/orchestration/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/core/orchestration/node/publish_findings/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/core/orchestration/node/publish_findings/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/core/runtime/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/core/runtime/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/core/runtime/agent.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/core/runtime/agent.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/deployment/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/deployment/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/entrypoints/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/entrypoints/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/fleet_monitoring/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/fleet_monitoring/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/guardrails/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/guardrails/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/integrations/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/integrations/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/integrations/foo.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/integrations/foo.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/integrations/hermes/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/integrations/hermes/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/integrations/llm_cli/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/integrations/llm_cli/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/integrations/llm_cli/foo.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/integrations/llm_cli/foo.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/integrations/opensre/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/integrations/opensre/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/masking/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/masking/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/remote/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/remote/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/sandbox/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/sandbox/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/services/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/services/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/state/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/state/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/tools/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/tools/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/types/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/types/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/utils/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/utils/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/watch_dog/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/watch_dog/"
+    ]
+   ]
+  },
+  {
+   "id": "p:app/webapp.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "app/webapp.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:cli/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "cli/"
+    ]
+   ]
+  },
+  {
+   "id": "p:config/webapp.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "config/webapp.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:core/agent.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "core/agent.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:core/domain/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "core/domain/"
+    ]
+   ]
+  },
+  {
+   "id": "p:core/orchestration/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "core/orchestration/"
+    ]
+   ]
+  },
+  {
+   "id": "p:core/orchestration/node/publish_findings/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "core/orchestration/node/publish_findings/"
+    ]
+   ]
+  },
+  {
+   "id": "p:core/runtime/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "core/runtime/"
+    ]
+   ]
+  },
+  {
+   "id": "p:docs/readme.mdx",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "docs/readme.mdx"
+    ]
+   ]
+  },
+  {
+   "id": "p:gateway/server.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "gateway/server.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:infra/ci/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "infra/ci/"
+    ]
+   ]
+  },
+  {
+   "id": "p:infra/ci/test_scope_rules.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "infra/ci/test_scope_rules.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:infra/deployment/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "infra/deployment/"
+    ]
+   ]
+  },
+  {
+   "id": "p:infra/deployment/entrypoints/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "infra/deployment/entrypoints/"
+    ]
+   ]
+  },
+  {
+   "id": "p:infra/deployment/remote/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "infra/deployment/remote/"
+    ]
+   ]
+  },
+  {
+   "id": "p:integrations/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "integrations/"
+    ]
+   ]
+  },
+  {
+   "id": "p:integrations/hermes/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "integrations/hermes/"
+    ]
+   ]
+  },
+  {
+   "id": "p:integrations/llm_cli/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "integrations/llm_cli/"
+    ]
+   ]
+  },
+  {
+   "id": "p:integrations/opensre/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "integrations/opensre/"
+    ]
+   ]
+  },
+  {
+   "id": "p:platform/analytics/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "platform/analytics/"
+    ]
+   ]
+  },
+  {
+   "id": "p:platform/auth/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "platform/auth/"
+    ]
+   ]
+  },
+  {
+   "id": "p:platform/guardrails/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "platform/guardrails/"
+    ]
+   ]
+  },
+  {
+   "id": "p:platform/masking/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "platform/masking/"
+    ]
+   ]
+  },
+  {
+   "id": "p:platform/sandbox/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "platform/sandbox/"
+    ]
+   ]
+  },
+  {
+   "id": "p:pyproject.toml",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "pyproject.toml"
+    ]
+   ]
+  },
+  {
+   "id": "p:pytest.ini",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "pytest.ini"
+    ]
+   ]
+  },
+  {
+   "id": "p:services/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "services/"
+    ]
+   ]
+  },
+  {
+   "id": "p:tests/core/test_x.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "tests/core/test_x.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:tests/infra_ci/test_test_scope_rules.py",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "tests/infra_ci/test_test_scope_rules.py"
+    ]
+   ]
+  },
+  {
+   "id": "p:tools/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "tools/"
+    ]
+   ]
+  },
+  {
+   "id": "p:tools/fleet_monitoring/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "tools/fleet_monitoring/"
+    ]
+   ]
+  },
+  {
+   "id": "p:tools/watch_dog/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "tools/watch_dog/"
+    ]
+   ]
+  },
+  {
+   "id": "p:unknown/path.txt",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "unknown/path.txt"
+    ]
+   ]
+  },
+  {
+   "id": "p:utils/",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "utils/"
+    ]
+   ]
+  },
+  {
+   "id": "p:uv.lock",
+   "module": "test_scope_rules",
+   "function": "classify",
+   "args": [
+    [
+     "uv.lock"
+    ]
+   ]
+  }
+ ]
+}

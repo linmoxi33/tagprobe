@@ -1,0 +1,12 @@
+{
+  "calls": [
+    {"id": "add-int", "module": "calc", "function": "add", "args": [2, 3]},
+    {"id": "scale-int", "module": "calc", "function": "scale", "args": [7]},
+    {"id": "div-zero", "module": "calc", "function": "div", "args": [1, 0]},
+    {"id": "parse-bad", "module": "calc", "function": "parse", "args": ["x"]},
+    {"id": "tag-dict", "module": "calc", "function": "tag", "args": ["n"]},
+    {"id": "noisy-stdout", "module": "calc", "function": "noisy", "args": [5]},
+    {"id": "only-a", "module": "calc", "function": "only_a", "args": []},
+    {"id": "only-b", "module": "calc", "function": "only_b", "args": []}
+  ]
+}

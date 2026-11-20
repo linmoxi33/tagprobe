@@ -1,0 +1,218 @@
+{
+  "cases": [
+    {
+      "a": {
+        "id": "add-int",
+        "outcome": "return",
+        "stdout": "",
+        "value": 5
+      },
+      "b": {
+        "id": "add-int",
+        "outcome": "return",
+        "stdout": "",
+        "value": 5
+      },
+      "function": "add",
+      "id": "add-int",
+      "kinds": [],
+      "module": "calc",
+      "status": "same"
+    },
+    {
+      "a": {
+        "id": "scale-int",
+        "outcome": "return",
+        "stdout": "",
+        "value": 14
+      },
+      "b": {
+        "id": "scale-int",
+        "outcome": "return",
+        "stdout": "",
+        "value": 21
+      },
+      "function": "scale",
+      "id": "scale-int",
+      "kinds": [
+        "value_drift"
+      ],
+      "module": "calc",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "error": {
+          "message": "division by zero",
+          "type": "ZeroDivisionError"
+        },
+        "id": "div-zero",
+        "outcome": "raise",
+        "stdout": ""
+      },
+      "b": {
+        "error": {
+          "message": "b must be non-zero",
+          "type": "ValueError"
+        },
+        "id": "div-zero",
+        "outcome": "raise",
+        "stdout": ""
+      },
+      "function": "div",
+      "id": "div-zero",
+      "kinds": [
+        "error_type_drift"
+      ],
+      "module": "calc",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "error": {
+          "message": "invalid literal for int() with base 10: 'x'",
+          "type": "ValueError"
+        },
+        "id": "parse-bad",
+        "outcome": "raise",
+        "stdout": ""
+      },
+      "b": {
+        "error": {
+          "message": "bad number: 'x'",
+          "type": "ValueError"
+        },
+        "id": "parse-bad",
+        "outcome": "raise",
+        "stdout": ""
+      },
+      "function": "parse",
+      "id": "parse-bad",
+      "kinds": [
+        "error_message_drift"
+      ],
+      "module": "calc",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "tag-dict",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__map__": [
+            [
+              "kind",
+              "v1"
+            ],
+            [
+              "name",
+              "n"
+            ]
+          ]
+        }
+      },
+      "b": {
+        "id": "tag-dict",
+        "outcome": "return",
+        "stdout": "",
+        "value": {
+          "__map__": [
+            [
+              "kind",
+              "v2"
+            ],
+            [
+              "name",
+              "n"
+            ]
+          ]
+        }
+      },
+      "function": "tag",
+      "id": "tag-dict",
+      "kinds": [
+        "value_drift"
+      ],
+      "module": "calc",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "noisy-stdout",
+        "outcome": "return",
+        "stdout": "processing 5\n",
+        "value": 5
+      },
+      "b": {
+        "id": "noisy-stdout",
+        "outcome": "return",
+        "stdout": "",
+        "value": 5
+      },
+      "function": "noisy",
+      "id": "noisy-stdout",
+      "kinds": [
+        "stdout_drift"
+      ],
+      "module": "calc",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "id": "only-a",
+        "outcome": "return",
+        "stdout": "",
+        "value": "removed in b"
+      },
+      "b": {
+        "detail": "module 'calc' has no attribute 'only_a'",
+        "id": "only-a",
+        "outcome": "missing",
+        "stdout": ""
+      },
+      "function": "only_a",
+      "id": "only-a",
+      "kinds": [
+        "missing_symbol"
+      ],
+      "module": "calc",
+      "status": "drift"
+    },
+    {
+      "a": {
+        "detail": "module 'calc' has no attribute 'only_b'",
+        "id": "only-b",
+        "outcome": "missing",
+        "stdout": ""
+      },
+      "b": {
+        "id": "only-b",
+        "outcome": "return",
+        "stdout": "",
+        "value": "added in b"
+      },
+      "function": "only_b",
+      "id": "only-b",
+      "kinds": [
+        "missing_symbol"
+      ],
+      "module": "calc",
+      "status": "drift"
+    }
+  ],
+  "digest": "sha256:387c5132d02fc948370c94aabe8d1d4f8839701cc5b16c1152987250f5344c2d",
+  "summary": {
+    "drift": 7,
+    "kinds": {
+      "error_message_drift": 1,
+      "error_type_drift": 1,
+      "missing_symbol": 2,
+      "stdout_drift": 1,
+      "value_drift": 2
+    },
+    "same": 1,
+    "total": 8
+  },
+  "tool": "tagprobe"
+}
